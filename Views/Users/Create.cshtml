@@ -1,0 +1,32 @@
+@model adonetdatabase.Models.User
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form asp-action="Create" method = "post">
+
+<div>
+<label asp-for="Name"></label>
+<input asp-for="Name" />
+</div>
+
+<div>
+<label asp-for="Gender"></label>
+<input asp-for="Gender" />
+</div>
+
+
+<div>
+<label asp-for="Age"></label>
+<input asp-for="Age" type="number" />
+</div>
+
+
+<div>
+<label  asp-for="Email"></label>
+<input asp-for="Email" type="email" />
+</div>
+
+<button class="btn btn-primary">Add User </button>
+
+</form>
