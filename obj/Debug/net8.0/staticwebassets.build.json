@@ -1,0 +1,50 @@
+{
+  "Version": 1,
+  "Hash": "YXX8FWFXbehaFq66iSvG6DWOJ1KwTVfoD2fVBCvRomQ=",
+  "Source": "adonetdatabase",
+  "BasePath": "_content/adonetdatabase",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\adonetdatabase\\obj\\Debug\\net8.0\\scopedcss\\bundle\\adonetdatabase.styles.css",
+      "SourceId": "adonetdatabase",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\adonetdatabase\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/adonetdatabase",
+      "RelativePath": "adonetdatabase.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\adonetdatabase\\obj\\Debug\\net8.0\\scopedcss\\bundle\\adonetdatabase.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\adonetdatabase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\adonetdatabase.bundle.scp.css",
+      "SourceId": "adonetdatabase",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\adonetdatabase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/adonetdatabase",
+      "RelativePath": "adonetdatabase.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\adonetdatabase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\adonetdatabase.bundle.scp.css"
+    }
+  ]
+}

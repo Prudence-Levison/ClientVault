@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\adonetdatabase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\adonetdatabase.bundle.scp.css",
+      "PackagePath": "staticwebassets\\adonetdatabase.bundle.scp.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.adonetdatabase.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.adonetdatabase.props",
+      "PackagePath": "build\\adonetdatabase.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.adonetdatabase.props",
+      "PackagePath": "buildMultiTargeting\\adonetdatabase.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.adonetdatabase.props",
+      "PackagePath": "buildTransitive\\adonetdatabase.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
