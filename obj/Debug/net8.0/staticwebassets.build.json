@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "YXX8FWFXbehaFq66iSvG6DWOJ1KwTVfoD2fVBCvRomQ=",
+  "Hash": "9o6PU8ihR+mnQ5PJtswUkdImarY+W7ZKPS2gwxKKuYg=",
   "Source": "adonetdatabase",
   "BasePath": "_content/adonetdatabase",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "adonetdatabase\\wwwroot",
+      "Source": "adonetdatabase",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\adonetdatabase\\wwwroot\\",
+      "BasePath": "_content/adonetdatabase",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [
     {
       "Identity": "C:\\Users\\USER\\Desktop\\adonetdatabase\\obj\\Debug\\net8.0\\scopedcss\\bundle\\adonetdatabase.styles.css",
@@ -45,6 +53,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\adonetdatabase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\adonetdatabase.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\adonetdatabase\\wwwroot\\css\\site.css",
+      "SourceId": "adonetdatabase",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\adonetdatabase\\wwwroot\\",
+      "BasePath": "_content/adonetdatabase",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\adonetdatabase\\wwwroot\\js\\site.js",
+      "SourceId": "adonetdatabase",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\adonetdatabase\\wwwroot\\",
+      "BasePath": "_content/adonetdatabase",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     }
   ]
 }

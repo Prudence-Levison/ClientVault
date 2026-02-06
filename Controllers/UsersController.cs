@@ -51,6 +51,12 @@ public IActionResult Edit(User user){
      TempData["SuccessMessage"] = "User updated successfully!";
      return RedirectToAction("Index");
 }
+
+public IActionResult Delete(int Id){
+    _userRepository.Delete(Id);
+    TempData["SuccessMessage"] = "User deleted successfully!";
+     return RedirectToAction("Index");
+}
   public IActionResult Index()
     {
         var users = _userRepository.GetAll();

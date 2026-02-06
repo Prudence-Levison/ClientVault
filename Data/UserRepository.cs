@@ -39,7 +39,15 @@ namespace adonetdatabase.Data
              command.Parameters.AddWithValue("@id", user.Id);
             command.ExecuteNonQuery();
         }
+         
+         public void Delete(int Id){
+         using var connection = _db.GetConnection();
+         var command = connection.CreateCommand();
+         command.CommandText = @"DELETE FROM Users WHERE Id=@id";
+         command.Parameters.AddWithValue("@id", Id);
+         command.ExecuteNonQuery();
 
+         }
         public List<User> GetAll()
         {
             var users = new List<User>();
