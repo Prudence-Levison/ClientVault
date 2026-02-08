@@ -20,3 +20,12 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.btn-pink {
+  background-color: #e45c9f;
+  border-color: #e45c9f;
+  color: #fff;
+}
+.text-pink {
+  color: #e45c9f;
+}

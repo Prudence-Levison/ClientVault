@@ -3,30 +3,45 @@
     ViewData["Title"] = "Create";
 }
 
+
+<div class="min-h-100 p-4  d-flex align-items-center justify-content-center bg-light">
+
+ <div class="bg-white p-4 rounded shadow-sm" style="width: 400px;">
+
+    <h4 class="text-center mb-4">USER FORM</h4>
 <form asp-action="Create" method = "post">
 
-<div>
+<div >
 <label asp-for="Name"></label>
-<input asp-for="Name" />
+<input asp-for="Name" class="form-control"/>
+
 </div>
 
-<div>
+<div class="mb-3"> 
 <label asp-for="Gender"></label>
-<input asp-for="Gender" />
+<input asp-for="Gender"  class="form-control"/>
+
 </div>
 
 
-<div>
+<div class="mb-3">
 <label asp-for="Age"></label>
-<input asp-for="Age" type="number" />
+<input asp-for="Age" type="number" class="form-control" />
+
 </div>
 
 
-<div>
+<div class="mb-3">
 <label  asp-for="Email"></label>
-<input asp-for="Email" type="email" />
+<input asp-for="Email" type="email"  class="form-control"/>
+
 </div>
 
-<button class="btn btn-primary">Add User </button>
+<button class="btn btn-pink form-control mb-3">Add User </button>
+
+
 
 </form>
+</div>
+</div>
+
