@@ -10,10 +10,12 @@
 
     <h4 class="text-center mb-4">USER FORM</h4>
 <form asp-action="Create" method = "post">
+    @Html.AntiForgeryToken()
 
 <div >
 <label asp-for="Name"></label>
 <input asp-for="Name" class="form-control"/>
+<span asp-validation-for="Name" class="text-danger p-2" ></span>
 
 </div>
 
@@ -27,6 +29,7 @@
 <div class="mb-3">
 <label asp-for="Age"></label>
 <input asp-for="Age" type="number" class="form-control" />
+<span asp-validation-for="Age" class="text-danger p-2" ></span>
 
 </div>
 
@@ -34,6 +37,8 @@
 <div class="mb-3">
 <label  asp-for="Email"></label>
 <input asp-for="Email" type="email"  class="form-control"/>
+<span asp-validation-for="Email" class="text-danger p-2" ></span>
+
 
 </div>
 
@@ -44,4 +49,8 @@
 </form>
 </div>
 </div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
 

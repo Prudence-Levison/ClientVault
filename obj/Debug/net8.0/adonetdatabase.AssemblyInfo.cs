@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("adonetdatabase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3db648f5a81972fefb73c7fbfef9d4bd272202d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f3200d4391567f4944a0890fd675e6d8f92da65")]
 [assembly: System.Reflection.AssemblyProductAttribute("adonetdatabase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("adonetdatabase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
